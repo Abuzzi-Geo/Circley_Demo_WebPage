@@ -13,7 +13,7 @@ export default function Hero({ onJoin }) {
     <section id="home" className="hero section">
       <div className="hero-glow glow-one" /><div className="hero-glow glow-two" />
       <div className="hero-copy">
-        <motion.div className="welcome-pill" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+        <motion.div className="welcome-pill" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ transition:.5 }}>
           <Heart size={16} /> A community that feels like home.
         </motion.div>
         <motion.h1 initial={{ opacity: 0, y: 25 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .08, duration: .7 }}>
